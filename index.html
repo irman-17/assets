@@ -471,6 +471,12 @@ nav ul li a:hover::after {
     gap: 1.5rem;
 }
 
+
+.laporan-container {display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
 .gallery-item {
     position: relative;
     overflow: hidden;
@@ -952,7 +958,7 @@ header {
     <!-- Running Text Banner -->
 <div class="ticker-wrap">
     <div class="ticker">
-        <div class="ticker-item"><i class="fas fa-calendar-alt"></i> </div>
+        <div class="ticker-item"><i class="fas fa-calendar-alt"></i> Pendaftaran Sanlat IRMAN III sedang dibuka! Sampai Tanggal 22-23 Ramadhan 2025 yukk daftar sekarang juga!</div>
         <div class="ticker-item"><i class="fas fa-mosque"></i> Mari makmurkan Masjid Jami Al-Iman bersama IRMAN</div>
         <div class="ticker-item"><i class="fas fa-book-quran"></i> Jadwal Kajian Rutin: Setiap Ahad Ba'da Maghrib</div>
         <div class="ticker-item"><i class="fas fa-bullhorn"></i> Info terbaru kegiatan: Follow Instagram @irman_media17</div>
@@ -964,7 +970,7 @@ header {
         <div class="header-container">
             <div class="logo">
                 <img src="assets/logo1.png" alt="IRMAS Logo">
-                <h1>IKATAN <span>REMAJA MASJID AL-IMAN</span></h1>
+                <h1>IKATAN <span>REMAJA MASJID JAMI AL-IMAN</span></h1>
             </div>
             <div class="mobile-toggle">
                 <i class="fas fa-bars"></i>
@@ -1049,6 +1055,24 @@ header {
         </div>
     </section>
 
+   <!-- Laporan Section -->
+   <section id="gallery">
+    <div class="container">
+        <div class="section-title">
+            <h2>Laporan IRMAN</h2>
+        </div>
+        <div class="gallery-container">
+            <div class="gallery-item" data-delay="0.1">
+                <img src="assets/laporan.jpeg" alt="Gallery 1">
+                <div class="gallery-overlay">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            
+            </div>
+    </div>
+</section>
+    
     <!-- Activities Section -->
     <section id="kegiatan">
         <div class="container">
@@ -1065,21 +1089,21 @@ header {
                             <i class="far fa-calendar-alt"></i>
                             <span>Setiap Tahun</span>
                         </div>
-                        <h3>Footbar Sanlat Irman III</h3>
-                        <p>Kegiatan kajian keislaman yang dilaksanakan setiap minggu untuk meningkatkan pemahaman dan wawasan keagamaan para remaja.</p>
+                        <h3>Footbar Sanlat</h3>
+                        <p>Kegiatan kajian keislaman yang dilaksanakan setiap tahun untuk meningkatkan pemahaman dan wawasan keagamaan para remaja.</p>
                         <button ><a href="daftar.html" class="btn-daftar">Daftar Sekarang</a></button>
                     </div>
                 </div>
                 <div class="activity-card" data-delay="0.4">
                     <div class="activity-image">
-                        <img src="assets/2.jpg" alt="Pelatihan Leadership">
+                        <img src="assets/bangunin sahur1.jpeg" alt="Pelatihan Leadership">
                     </div>
                     <div class="activity-content">
                         <div class="activity-date">
                             <i class="far fa-calendar-alt"></i>
-                            <span>Bulanan</span>
+                            <span>Tahunan</span>
                         </div>
-                        <h3>Pelatihan Leadership</h3>
+                        <h3>Bangunin Sahur</h3>
                         <p>Program pengembangan kepemimpinan untuk mempersiapkan generasi muda yang mampu menjadi pemimpin di masa depan.</p>
                         
                     </div>
@@ -1091,11 +1115,11 @@ header {
                     <div class="activity-content">
                         <div class="activity-date">
                             <i class="far fa-calendar-alt"></i>
-                            <span>Setiap Isra Mi'raj</span>
+                            <span>Setiap Isra Mi'raj Dan Maulid</span>
                         </div>
                         <h3>Footbar Hadroh</h3>
                         <p>Kegiatan sosial kemasyarakatan berupa pemberian bantuan, pembersihan lingkungan, dan kegiatan sosial lainnya.</p>
-                        
+                        <button ><a href="daftar.html" class="btn-daftar">Daftar Sekarang</a></button>
                     </div>
                 </div>
             </div>
@@ -1152,7 +1176,19 @@ header {
                     </div>
                 </div>
                 <div class="gallery-item" data-delay="0.6">
-                    <img src="assets/10.jpg" alt="Gallery 6">
+                    <img src="assets/bangunin sahur.jpeg" alt="Gallery 6">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-delay="0.6">
+                    <img src="assets/bangunin sahur1.jpeg" alt="Gallery 6">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-delay="0.6">
+                    <img src="assets/bangunin sahur2.jpeg" alt="Gallery 6">
                     <div class="gallery-overlay">
                         <i class="fas fa-search-plus"></i>
                     </div>
@@ -1179,7 +1215,7 @@ header {
             </div>
             <div class="contact-container">
                 <div class="contact-info animate slideInLeft">
-                    <h3>Informasi Berlangganan</h3>
+                    <h3>Informasi Kontak</h3>
                     <p>Jangan ragu untuk menghubungi kami jika Anda memiliki pertanyaan, ingin bergabung, atau berkolaborasi dengan IRMAS.</p>
                     <div class="contact-details">
                         <div class="contact-item">
@@ -1195,7 +1231,7 @@ header {
                                 <i class="fas fa-phone"></i>
                             </div>
                             <div class="contact-text">
-                                +62 -
+                                +62 
                             </div>
                         </div>
                         <div class="contact-item">
@@ -1276,7 +1312,7 @@ header {
                     <h4>Kegiatan</h4>
                     <ul class="footer-links">
                         <li><a href="#"><i class="fas fa-chevron-right"></i> Kajian Rutin</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> Pelatihan Leadership</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Maulid Nabi Muhammad SAW</a></li>
                         <li><a href="#"><i class="fas fa-chevron-right"></i> Bakti Sosial</a></li>
                         <li><a href="#"><i class="fas fa-chevron-right"></i> Tahsin Al-Qur'an</a></li>
                         <li><a href="#"><i class="fas fa-chevron-right"></i> Festival Islami</a></li>
@@ -1294,7 +1330,9 @@ header {
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Ikatan Remaja Masjid. All Rights Reserved.</p>
+                <p>&copy; Powered By : Rizki_IT</p>
+                <p>&copy; 2025 - 2026 Ikatan Remaja Masjid. 
+                    </p>All Rights Reserved.</p>
             </div>
         </div>
     </footer>
